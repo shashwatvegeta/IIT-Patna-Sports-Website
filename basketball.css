@@ -1,0 +1,434 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 2vh;
+}
+
+.container {
+    display: flex;
+    height: fit-content;
+    background-image: url('photo/backevents.png');
+    background-size: cover; /* This ensures the image covers the entire container */
+    background-position: center; 
+    
+    padding-bottom: 4vh;
+}
+
+.sidebar {
+    width: fit-content;
+    background-color: #333;
+    color: white;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: width 0.3s ease;
+    
+
+    background-color: black;
+    padding-right: 1vh;
+    padding-bottom: 4vh;
+    margin-bottom: -5vh;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    background-color: #575757;
+}
+
+.content {
+    margin-left: 100px; /* Same as the width of the sidebar */
+    padding: 20px;
+    flex-grow: 1;
+    color: #f4f7ba;
+    background-color: #0b100a91;
+    height: fit-content;
+    margin-top: 9vh;
+    margin-right:60vh;
+
+    
+}
+
+
+
+
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+    .content {
+        margin-left: 200px; /* Adjust content margin accordingly */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sidebar {
+        width: 150px;
+    }
+    .content {
+        margin-left: 150px; /* Adjust content margin accordingly */
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .sidebar {
+        width: 100px;
+    }
+    .content {
+        margin-left: 100px; /* Adjust content margin accordingly */
+    }
+}
+
+
+
+
+
+
+
+
+/* HEADER */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+
+.logo img {
+    height: 120px;
+   
+}
+
+
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo img {
+        height: 80px;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .logo img {
+        height: 30px;
+    }
+   
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        padding: 5px 10px;
+    }
+    .logo img {
+        height: 25px;
+    }
+    
+}
+
+.IIT{
+   
+    position: relative;
+    font-size: 8vh;
+   font-style: italic;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+   
+   
+   
+}
+
+
+
+
+
+
+/* introCard */
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    background-color: black;
+    padding-top: 5vh;
+}
+
+.card {
+    background-color: #7d7373b9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(33.333% - 20px);
+    max-width: 300px;
+    text-align: center;
+    padding: 7vh;
+    margin-bottom: 7vh;
+    transition: transform 0.3s;
+    
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin: 10px 0 5px;
+    color: #f2f67b;
+    font-size: 2.5vh;
+}
+
+
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* socialIcon */
+
+
+
+.social-icons {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    gap: 15px;
+}
+
+.icon img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.icon:hover img {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .icon img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        justify-content: center;
+    }
+    .icon img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+
+/* footer */
+
+.footer {
+    background-color: #4d487d;
+    color: #fff;
+   
+    text-align: center;
+}
+
+.footer-content {
+    
+ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-menus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.menu {
+    text-align: left;
+}
+
+.menu h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 5px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ddd;
+}
+
+.footer-social {
+    margin-top: 20px;
+}
+
+.footer-social a {
+    margin: 0 10px;
+}
+
+.footer-social img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.footer-social a:hover img {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-menus {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-logo img {
+        max-width: 120px;
+    }
+
+    .menu h4 {
+        font-size: 16px;
+    }
+
+    .footer-social img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+
+
+
+/* select_game0 */
+
+
+nav {
+    background-color: #333;
+}
+
+.menu1 {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.menu1 li {
+    margin: 0 15px;
+}
+
+.menu1 a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.menu1 a:hover {
+    background-color: #575757;
+}
+
+@media (max-width: 768px) {
+    .menu1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu1 li {
+        margin: 10px 0;
+    }
+}
+
