@@ -13,3 +13,8 @@ To do:
 8. Achivements Page: Add updated achievements 
 9. Sports council: Add Anirudh, Erum and Santosh
 10. NSO Page: update info
+11. Footer
+
+
+Tasks done:
+3, 4, 11
