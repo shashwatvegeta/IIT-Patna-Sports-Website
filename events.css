@@ -417,7 +417,7 @@ body {
     
 }
 
-.profile5 {
+.profile5,.aarambh, .NSO {
     background-color: rgba(0, 0, 0, 0.7);
     color: #f4f7ba;
    
@@ -426,6 +426,7 @@ body {
     height: 100%;
     box-sizing: border-box;
     padding-left: 20vh;
+    margin-bottom: 10px;
 }
 
 .profile-photo5 {
