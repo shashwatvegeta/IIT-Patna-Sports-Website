@@ -8,3 +8,8 @@ To do:
 4. Mail to button: gensec_sports@iitp.ac.in, sports@iitp.ac.in
 5. Sports council pictures - VP, Gensec, Junior yr, UG Girls, Sopho yr
    ( https://drive.google.com/drive/folders/1i7xAbmAlgRXFcFvls8tCONrqtxrMIIRe )
+6. Events page: add aarambh, add NSD 
+7. Games page: update member photos 
+8. Achivements Page: Add updated achievements 
+9. Sports council: Add Anirudh, Erum and Santosh
+10. NSO Page: update info
