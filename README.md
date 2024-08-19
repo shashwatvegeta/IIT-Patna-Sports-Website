@@ -14,6 +14,8 @@ To do:
 9. Sports council: Add Anirudh, Erum and Santosh
 10. NSO Page: update info
 11. Footer
+12. Changing the background images of respective sports in games section(currently fixed)
+13. Contact us link not working
 
 
 Tasks done:
