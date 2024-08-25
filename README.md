@@ -4,18 +4,20 @@ To do:
 
 1. Sports Achievements
 2. Gym Page - Payment Button, Gym pictures
-3. Sponsor page
-4. Mail to button: gensec_sports@iitp.ac.in, sports@iitp.ac.in
-5. Sports council pictures - VP, Gensec, Junior yr, UG Girls, Sopho yr
-   ( https://drive.google.com/drive/folders/1i7xAbmAlgRXFcFvls8tCONrqtxrMIIRe )
-6. Events page: add aarambh, add NSD 
-7. Games page: update member photos 
+3. ~~Sponsor page~~
+4. ~~Mail to button: gensec_sports@iitp.ac.in, sports@iitp.ac.in~~
+5. ~~Sports council pictures - VP, Gensec, Junior yr, UG Girls, Sopho yr
+   ( https://drive.google.com/drive/folders/1i7xAbmAlgRXFcFvls8tCONrqtxrMIIRe )~~
+6.~~Events page: add aarambh, add NSD~~
+7. Games page: update member photos (only coordinators)
 8. Achivements Page: Add updated achievements 
-9. Sports council: Add Anirudh, Erum and Santosh
-10. NSO Page: update info
-11. Footer
+9. ~~Sports council: Add Anirudh, Erum and Santosh~~
+10. ~~NSO Page: update info~~
+11. ~~Footer~~
 12. Changing the background images of respective sports in games section(currently fixed)
-13. Contact us link not working
+13. Footer Contact us link not working
+14. Add NSD in sports events
+
 
 
 Tasks done:
