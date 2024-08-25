@@ -15,7 +15,7 @@ To do:
 10. ~~NSO Page: update info~~
 11. ~~Footer~~
 12. Changing the background images of respective sports in games section(currently fixed)
-13. Footer Contact us link not working
+13. ~~Footer Contact us link not working~~ 
 14. Add NSD in sports events
 
 
