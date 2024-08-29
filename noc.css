@@ -402,14 +402,63 @@ body {
 
 /* Container styling */
 .container2 {
-  background-color: #000000; /* Black background color */
-
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
-  width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
+  background-color: black;
+  padding: 20px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
 }
+
+.container2 h1 {
+  color: #ad7676;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.container2 h2 {
+  color: #f4f7ba;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.container2 h3 {
+  color: #f4f7ba;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+.container2 p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.container2 ul {
+  list-style: disc inside;
+  margin: 10px 0 20px 20px;
+}
+
+.container2 li {
+  margin-bottom: 8px;
+}
+
+.container2 .pdf-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #f4f7ba;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.container2 .pdf-link:hover {
+  background-color: #453737;
+  color: #f4f7ba;
+}
+
 
 /* Heading styling */
 .heading {
