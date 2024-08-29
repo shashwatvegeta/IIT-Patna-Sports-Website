@@ -177,6 +177,8 @@ body {
   height: auto;
   border-radius: 50%;
   margin-bottom: 10px;
+  aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 .card h3 {
@@ -456,3 +458,4 @@ body {
     transform: translateX(-100%);
   }
 }
+
