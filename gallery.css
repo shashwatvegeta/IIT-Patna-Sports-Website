@@ -316,16 +316,10 @@ body {
 /* footer */
 
 .footer {
-    background-color: #291e1e;
+    background-color: #4d487d;
     color: #fff;
+   
     text-align: center;
-}
-
-.credit {
-    background-color: #291e1e;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 5px;
 }
 
 .footer-content {
@@ -337,26 +331,16 @@ body {
     align-items: center;
 }
 
-.footer-main {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 80px;
-}
-
 .footer-logo img {
     max-width: 150px;
-    margin-left: 80px;
-    padding-top: 15px;
+    margin-bottom: 20px;
 }
 
 .footer-menus {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 100px;
-    margin-top: 15px;
-    margin-left: 50px;
+    gap: 40px;
 }
 
 .menu {
@@ -366,18 +350,6 @@ body {
 .menu h4 {
     margin-bottom: 10px;
     font-size: 18px;
-    margin-bottom: 20px;
-    color: rgb(255, 255, 255);
-}
-
-.menu h4::before {
-    content: '';
-    display: block;
-    width: 70%;
-    height: 2px;
-    background-color: #ff5e00;
-    margin-bottom: 10px;
-    transform: translateY(35px);
 }
 
 .menu ul {
@@ -386,7 +358,7 @@ body {
 }
 
 .menu li {
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 }
 
 .menu a {
@@ -396,16 +368,15 @@ body {
 }
 
 .menu a:hover {
-    color: #eb7724;
+    color: #ddd;
 }
 
 .footer-social {
     margin-top: 20px;
-    margin-right: 70px;
 }
 
 .footer-social a {
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 .footer-social img {
@@ -418,48 +389,14 @@ body {
     transform: scale(1.1);
 }
 
-@media (max-width: 1250px) {
-    /*decrease the gaps and margins*/
-    .footer-menus {
-        gap: 50px;
-        margin-left: 30px;
-    }
-    .footer-logo img {
-        margin-left: 50px;
-    }
-    .footer-social {
-        margin-right: 40px;
-    }
-    .footer-social a {
-        margin: 0 10px;
-    }
-    .footer-main {
-        gap: 30px;
-    }
-}
-
-@media (max-width: 945px) {
+@media (max-width: 768px) {
     .footer-content {
         flex-direction: column;
         align-items: center;
     }
 
     .footer-menus {
-        gap: 100px;
-    }
-
-    .footer-main {
-        gap: 50px;
-    }
-
-    .footer-social a {
-        margin: 0 20px;
-    }
-}
-
-@media (max-width: 800px) {
-    .footer-main {
-        flex-direction: column;
+        gap: 20px;
     }
 }
 
@@ -469,27 +406,19 @@ body {
     }
 
     .menu h4 {
-        font-size: 20px;
-    }
-
-    .footer-menus {
-        gap: 30px;
-        margin-left: 0px;
-    }
-
-    .footer-logo img {
-        margin-left: 0px;
+        font-size: 16px;
     }
 
     .footer-social img {
-        width: 30px;
-        height: 30px;
-    }
-
-    .footer-social a {
-        margin-right: 0;
+        width: 25px;
+        height: 25px;
     }
 }
+
+
+
+
+
 
 
 
