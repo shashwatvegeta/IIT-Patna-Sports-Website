@@ -175,6 +175,8 @@ body {
   height: auto;
   border-radius: 50%;
   margin-bottom: 10px;
+  /* aspect-ratio: 1/1; */
+  object-fit: cover;
 }
 
 .card h3 {
@@ -182,7 +184,11 @@ body {
   color: #f2f67b;
   font-size: 2.5vh;
 }
-
+.card p{
+  margin: 5px 0;
+  font-size: 2vh;
+  color: #f2f67b;
+}
 .card:hover {
   transform: scale(1.05);
 }
